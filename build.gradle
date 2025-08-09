@@ -150,11 +150,6 @@ tasks {
         dependsOn javadocJar
     }
 }
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(21)
-    }
-}
 
 
 publishing {
